@@ -43,7 +43,7 @@ export default function Countdown() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  });
 
   return (
     <div className="flex items-center flex-col">
